@@ -23,6 +23,8 @@ Remove read_statement from your home directory and remove the path setup from .b
 read_statement image_file.jpg
 # Can work with multiple files
 read_statement image_file1.jpg image_file2.jpg
+# For the whole current directory
+read_statement *.jpg
 ```
 After running, the information is saved to clipboard and can be pasted to Google Sheets or MS Excel.
 
